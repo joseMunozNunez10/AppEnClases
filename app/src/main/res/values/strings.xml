@@ -1,0 +1,29 @@
+<resources>
+
+    ============== LOGIN ===============
+    <string name="app_name">AppEnClases</string>
+    <string name="titulo_login">Inicio Sesion</string>
+    <string name="et_campo_correo">Email</string>
+    <string name="et_campo_password">Password</string>
+    <string name="btn_login">Inicar sesion</string>
+    <string name="tv_subtitulo">o conecta con </string>
+    <string name="btn_login_facebook">F</string>
+    <string name="btn_login_google">G </string>
+
+    ================== APP SALUD ============
+    <string name="titulo_AppSlaud">Mi estado de salud</string>
+    <string name="sub_titulo_AppSlaud">Registra y monitorea tu bienenstar diario</string>
+    <string name="btn_signos_vitales">Dashbord</string>
+    <string name="btn_registar">Registrar</string>
+    <string name="btn_historial">Historial</string>
+    <string name="btn_perfil">Perfil</string>
+    <string name="tv_peso">70 kg</string>
+    <string name="tv_titulo_cardview_1">Peso Actual</string>
+    <string name="tv_date">03/09/25</string>
+    <string name="tv_presion_arterial">120/80</string>
+    <string name="tv_ultimos_ejercicios">30 minutos</string>
+    <string name="tv_titulo_cardview_2">Presion Arterial</string>
+    <string name="tv_titulo_cardview_3">Ultimos Ejercicios</string>
+
+
+</resources>
