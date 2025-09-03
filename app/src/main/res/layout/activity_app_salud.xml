@@ -58,7 +58,10 @@
             android:background="@drawable/et_corner_radious_app_salud"
             android:gravity="center"
             android:orientation="horizontal"
-            android:padding="8dp">
+            android:padding="8dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?attr/selectableItemBackground">
 
             <ImageView
                 android:layout_width="15dp"
@@ -85,7 +88,10 @@
             android:background="@drawable/et_corner_radious_app_salud"
             android:gravity="center"
             android:orientation="horizontal"
-            android:padding="8dp">
+            android:padding="8dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?attr/selectableItemBackground">
 
             <ImageView
                 android:layout_width="15dp"
@@ -113,7 +119,10 @@
             android:background="@drawable/et_corner_radious_app_salud"
             android:gravity="center"
             android:orientation="horizontal"
-            android:padding="8dp">
+            android:padding="8dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?attr/selectableItemBackground">
 
             <ImageView
                 android:layout_width="15dp"
@@ -141,7 +150,10 @@
             android:background="@drawable/et_corner_radious_app_salud"
             android:gravity="center"
             android:orientation="horizontal"
-            android:padding="8dp">
+            android:padding="8dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?attr/selectableItemBackground">
 
             <ImageView
                 android:layout_width="15dp"
