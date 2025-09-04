@@ -11,6 +11,20 @@
     <string name="btn_login_facebook">Facebook</string>
     <string name="btn_login_google">Google</string>
 
+    <!-- ============== PANTALLA PRINCIPAL - MENU MAIN=============== -->
+
+    <string name="menu_principal">Menú de Ejercicios</string>
+    <string name="tv_descripcion_menu">Aplicaciones desarrolladas durante el
+        Bootcamp UAB demostrando competencias en mobile development</string>
+
+    <!-- Botones Menu Principa -->
+    <string name="btn_appsalud">Salud App</string>
+
+
+    <!-- descrption-->
+    <string name="iv_logo_unab">logo universidad andres bello</string>
+
+
     <!-- ============== PANTALLA PRINCIPAL - APP SALUD =============== -->
     <string name="titulo_AppSlaud">Mi estado de salud</string>
     <string name="sub_titulo_AppSlaud">Registra y monitorea tu bienestar diario</string>

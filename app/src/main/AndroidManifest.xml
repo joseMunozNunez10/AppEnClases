@@ -11,20 +11,22 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppEnClases">
+        <activity
+            android:name=".MenuActivity"
+            android:exported="true" />
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
 
         <activity
-            android:name=".AppSalud"
-            android:exported="true">  <!-- ⚠️ Debe ser true porque es la Activity de arranque -->
+            android:name=".appsalud.AppSalud"
+            android:exported="false">
 
-            <!-- ✅ El intent-filter va aquí -->
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
-
         <activity
-            android:name=".MainActivity"
+            android:name=".login.MainActivity"
             android:exported="false" />
     </application>
 
