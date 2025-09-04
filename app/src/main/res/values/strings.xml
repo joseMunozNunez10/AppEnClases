@@ -1,29 +1,48 @@
 <resources>
-
-    ============== LOGIN ===============
+    <!-- ============== NOMBRE DE LA APLICACIÓN =============== -->
     <string name="app_name">AppEnClases</string>
-    <string name="titulo_login">Inicio Sesion</string>
-    <string name="et_campo_correo">Email</string>
-    <string name="et_campo_password">Password</string>
-    <string name="btn_login">Inicar sesion</string>
-    <string name="tv_subtitulo">o conecta con </string>
-    <string name="btn_login_facebook">F</string>
-    <string name="btn_login_google">G </string>
 
-    ================== APP SALUD ============
+    <!-- ============== PANTALLA DE LOGIN =============== -->
+    <string name="titulo_login">Inicio de Sesión</string>
+    <string name="et_campo_correo">Correo electrónico</string>
+    <string name="et_campo_password">Contraseña</string>
+    <string name="btn_login">Iniciar sesión</string>
+    <string name="tv_subtitulo">o conectar con</string>
+    <string name="btn_login_facebook">Facebook</string>
+    <string name="btn_login_google">Google</string>
+
+    <!-- ============== PANTALLA PRINCIPAL - APP SALUD =============== -->
     <string name="titulo_AppSlaud">Mi estado de salud</string>
-    <string name="sub_titulo_AppSlaud">Registra y monitorea tu bienenstar diario</string>
-    <string name="btn_signos_vitales">Dashbord</string>
+    <string name="sub_titulo_AppSlaud">Registra y monitorea tu bienestar diario</string>
+
+    <!-- ============== BOTONES DE NAVEGACIÓN =============== -->
+    <string name="btn_signos_vitales">Dashboard</string>
     <string name="btn_registar">Registrar</string>
     <string name="btn_historial">Historial</string>
     <string name="btn_perfil">Perfil</string>
-    <string name="tv_peso">70 kg</string>
+
+    //descripcion de imagenes (contentDescription)
+    <string name="heart">Corazon</string>
+    <string name="historial">Reloj de regreso</string>
+    <string name="icono_perfil">perfil de usuario</string>
+
+    <!-- ============== TARJETAS DE INFORMACIÓN =============== -->
+
+    //Cardview 1 Peso Actual
     <string name="tv_titulo_cardview_1">Peso Actual</string>
-    <string name="tv_date">03/09/25</string>
+    <string name="tv_peso">70 kg</string>
+    <string name="tv_date">03/09/2025</string>
+
+    //Cardview 2 Presión Arterial
+    <string name="tv_titulo_cardview_2">Presión Arterial</string>
     <string name="tv_presion_arterial">120/80</string>
+
+    //Cardview 3 Últimos Ejercicios
+    <string name="tv_titulo_cardview_3">Últimos Ejercicios</string>
     <string name="tv_ultimos_ejercicios">30 minutos</string>
-    <string name="tv_titulo_cardview_2">Presion Arterial</string>
-    <string name="tv_titulo_cardview_3">Ultimos Ejercicios</string>
 
-
+    //Cardview 4 Estado de Ánimo
+    <string name="tv_titulo_cardview_4">Estado de Ánimo</string>
+    <string name="tv_valius_animo">8/10</string>
+    <string name="tv_date_animo">Muy bien 03-09-2025</string>
 </resources>
