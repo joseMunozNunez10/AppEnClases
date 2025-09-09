@@ -78,6 +78,19 @@
 
     </Button>
 
+    <Button
+        android:id="@+id/btnFragment"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_appFragment"
+        app:layout_constraintTop_toBottomOf="@+id/btnAppLogin"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="20dp"
+        android:padding="15dp">
+
+    </Button>
+
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>

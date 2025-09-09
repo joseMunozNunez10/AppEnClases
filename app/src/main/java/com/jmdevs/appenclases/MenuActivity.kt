@@ -30,10 +30,11 @@ class MenuActivity : AppCompatActivity() {
             // AQUI DEBO SIEMPRE INICIALIZAR LAS FUNCIONES
         intentAppSalud()
         intentAppLogin()
+        intentAppFragment()
 
     }
 
-            // ACA LA LOGICA DEL BOTON  O BOTONES
+            // ACA LA LOGICA DEL BOTON  O COMPONENTES
     private fun intentAppSalud() {
         binding.btnAppSalud.setOnClickListener {
             // Crear el Intent explícito
@@ -52,4 +53,12 @@ class MenuActivity : AppCompatActivity() {
         }
 
     }
+
+    private fun intentAppFragment(){
+        binding.btnFragment.setOnClickListener {
+            val intent = Intent(this, MainHostActivity::class.java)
+            startActivity(intent)
+        }
+    }
+
 }

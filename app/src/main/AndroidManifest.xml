@@ -12,22 +12,27 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppEnClases">
         <activity
+            android:name=".MainHostActivity"
+            android:exported="false" />
+        <activity
+            android:name=".fragment.FirstFragment"
+            android:exported="false" />
+        <activity
+            android:name=".loginfuncional.login_funcional"
+            android:exported="false" />
+        <activity
             android:name=".MenuActivity"
             android:exported="true">
-
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>/
-
+            </intent-filter>
+            /
         </activity>
-
         <activity
             android:name=".appsalud.AppSalud"
-            android:exported="false">
-
-        </activity>
+            android:exported="false" />
         <activity
             android:name=".login.LoginDiseño"
             android:exported="false" />

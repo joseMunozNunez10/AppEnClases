@@ -60,4 +60,22 @@
     <string name="tv_titulo_cardview_4">Estado de Ánimo</string>
     <string name="tv_valius_animo">8/10</string>
     <string name="tv_date_animo">Muy bien 03-09-2025</string>
+
+    ============================ LOGIN FUNCIONAL ===============
+
+    <string name="tab_iniciar_sesion">GOOGLE</string>
+    <string name="tab_registrarse">FACEBOOK</string>
+    <string name="btn_login_funcional">Login</string>
+
+    //
+    <string name="et_username">Username</string>
+    //
+    <string name="et_password">Password</string>
+
+    ========================= FRAGMERNT ===================
+
+    <string name="btn_appFragment">First Fragment</string>
+
 </resources>
+
+
